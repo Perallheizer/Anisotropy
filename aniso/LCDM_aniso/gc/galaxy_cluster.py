@@ -36,7 +36,7 @@ f = f[cond]
 # ===========================================================================
 
 #T_err = (2*T_plus*T_minus/(T_plus+T_minus) + np.sqrt(T_plus*T_minus))*0.5
-logT_err = np.log10(np.e)*((T_plus - T_minus)/(2*T))
+logT_err = np.log10(np.e)*((T_plus + T_minus)/(2*T))
 
 tau = T/4
 
