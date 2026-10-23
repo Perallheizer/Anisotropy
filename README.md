@@ -16,3 +16,5 @@ norm_AL.py - Does the same as analysis.py but foe the normalized AL statistic
 sep.py - Computes separation between two directions
 
 summary.py - Computes p-value from mock realizations
+
+bin_count.py - counts number of mocks for a particular redshift cut for which the maximum AL lies in the same grid as the observed maximum AL
